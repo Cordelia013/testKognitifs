@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* général */
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #222;
+}
+h1,
+h2,
+h3 {
+    margin-bottom: 2px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+p {
+    margin-bottom: 10px;
+}
+
+li {
+   
+    list-style: none;
+}
+
+img li {
+    width: 2%;
+    margin: 2px;
+}
+nav{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: ;
+    height: 100vh;
+    width: 50%;
+}
+
+.logo{
+    width:15%; 
+   margin: 20px;
+}
+.logo img{
+    width: 100vw;
+}
+
+.navbarsec1 > li:nth-child(1),
+li:nth-child(2),
+li:nth-child(3),
+li:nth-child(4) {
+    display:flex;
+    justify-content: left;
+    
+}
+
+.navbarsec1 > li > a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.navBoard > a:nth-child(2) {
+    width: 144px;
+    height: max-content;
+    width: 100vw;
+    margin: -2px;
+   }
+   
+.navbarsec1 > li > img:nth-child(1) {
+    width: 2rem;
+    margin-right: 19px;
+    padding: 3px;
+    height: max-content;
+}
+
+
+   
+/* navBar */
+
+.navbarsec1 {
+    width: 33rem;
+    border: 1px solid black;
+}
+
+.menuBoard {
+    display:none;
+    position: relative;
+    top: 2rem;
+    right: 280px;
+    width: 178px;
+    margin: 3%;
+   }
+   
+
+.navBoard:hover .menuBoard {
+    display: flex;
+    flex-direction: column;
+  }
+ /* deuxieme partie de la navBar   */

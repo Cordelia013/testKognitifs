@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    /* padding: 0px; */
+    box-sizing: border-box;
+}
+
+/* général */
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #222;
+}
+h1,
+h2,
+h3 {
+    margin-bottom: 2px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+p {
+    margin-bottom: 10px;
+}
+
+li {
+    padding: 10px;
+    margin: 20px;
+}
+
+/* navBar */
+
+navBoard
