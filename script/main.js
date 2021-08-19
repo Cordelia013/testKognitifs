@@ -11,7 +11,7 @@ function dropDownFunc(dropDown) {
             e.preventDefault();        
     
             if (this.nextElementSibling.classList.contains('dropdown-active') === true) {
-            //   modification de class si l'ememtn est actif
+            //   modification de class si l'élément est actif
                 this.parentElement.classList.remove('dropdown-open');
 
                 this.nextElementSibling.classList.remove('dropdown-active');
@@ -22,7 +22,7 @@ function dropDownFunc(dropDown) {
     
                 //  en fonction de l'action je modifie la class et j'ajout les class ouvert et active
                 this.parentElement.classList.add('dropdown-open');
-                // La propriété nextElementSibling me permet de e mettre aucun espace entre l'élément ouvert et l'element qui le suit
+                // La propriété nextElementSibling me permet de mettre aucun espace entre l'élément ouvert et l'element qui le suit
                 this.nextElementSibling.classList.add('dropdown-active');
             }
         });
@@ -40,7 +40,7 @@ window.addEventListener("click", function (e) {
 });
 
 
-// Fonction qui me permet de ferer la liste déroulante
+// Fonction qui me permet de gerer la liste déroulante
 function closeDropdown() { 
     console.log('run');
     
